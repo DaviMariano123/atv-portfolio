@@ -1,0 +1,134 @@
+/*========================================================================= 
+Geral
+
+========================================================================
+*/
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(15px + 0.390625vw);
+}
+section h2{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+/*======================================================================
+header
+=========================================================================
+*/
+
+header nav ul li{
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+header nav ul li a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 900;
+}
+/*==========================================================================
+Banner
+*/
+section.banner {
+    text-align:  center;
+    margin: 0 5vw 5vw;
+}
+section.banner img {
+    width: 98%;
+}
+section.banner h2 {
+    font-weight: bold;
+    font-size: 1.rem; 
+    background-color: #dd8282;
+    color: white;
+    border: none;
+    font-size: 1.3rem;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+/* Post=======================================================================
+*/
+section.Post{
+    background-color: #EDF7FA;
+    padding:20px 10px 20px 10px ;
+    
+}
+section.Post ul li{
+    background-color: white;
+    margin: 20px 0px 20px 0px;
+    padding: 20px 10px 20px 10px;
+}
+section.Post ul li h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+section.Post ul li p{
+   font-size: 1.07rem; 
+   line-height: 1.2rem;
+}
+section.Works ul li h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 20px;
+}
+section.Works ul li p{
+    font-size: 1.07;
+    margin: 20px;
+}
+section.Works ul li p.Info{
+    color: #a6a9aa;
+} 
+section.Works ul li p span{
+    background-color: #142850;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;    
+}
+section.works ul li {
+    padding: 0px 20px 0px 20px;
+}
+footer {
+    text-align: center;
+    padding: 20vw 0vw 20vw 0vw;
+}
+footer nav p a {
+    color: #21243D;
+    font-size: 1.3rem;
+    margin: 0px 9px 0px 9px;
+}
+footer nav p {
+    margin: 20px 0px 20px 0px;
+}
+@media (min-width: 900px) {
+    header {
+        padding: 2vw 0vw 2vw 0vw;
+    }
+    header nav ul {
+    display: flex;
+    justify-content: right;
+  }
+  header nav ul li {
+    margin: 0px 20px 0px 20px;
+  }
+  section.banner {
+   display: flex; 
+   flex-direction: row-reverse;
+}
+    section.banner div.texto {
+        width: 50%;
+        text-align: left;
+        padding: 0px 0px 0px 15px;
+    }
+}
+section.banner img {
+    width: 65%;
+}
+section.posts ul {
+    display: flex;
+}
+section.posts ul li {
+    margin: 0vw 1vw 0vw 1vw;
+}
