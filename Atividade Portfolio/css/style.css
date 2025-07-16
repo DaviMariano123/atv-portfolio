@@ -123,6 +123,22 @@ footer nav p a{
     font-size: 2.0rem;
     margin: 0 10px 0 10px;
 }
+
+div.banner2 h1 {
+    font-size: 2.0rem;
+    
+}
+div.banner2 h2 {
+    font-size: 1.3rem;
+    margin: 20px 0px 20px 20px;
+    text-align: left;
+}
+
+
+
+
+
+
 /* CSS media query dentro de um stylesheet */
 @media (min-width: 900px) {
     header{
